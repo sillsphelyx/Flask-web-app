@@ -1,0 +1,31 @@
+{% extends 'layout.html' %}
+{% block content%}
+<h1 id="heading">The vegetable market</h1>
+            <h2 id="heading-2"><a name="#pro">Our products</a></h2>
+            <p class="text">
+                We have in stock a variaty of fresh vegetables that cover a wide range of nutritional value.
+                These are supplied at either seeding level or fully grown and ready to eat stages. Grown organically
+                our products aim to deliver the most health value for every bite you take. Below is the list of vegetables
+                in stock and their nutritional contents and outlined health benefits. For those offered at seedling level
+                additional information on the appropriate growing conditions and useful growing techniques will be provided.
+                See the video below for a more details on what makes our product uniquely special.
+            </p>
+            <center>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/lYCP8lP_kQo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </center>
+            <p>
+                For more details on the products, the  production processes and their availability submit your email address below,
+            </p>
+            <form action="https://www.freecodecamp.com/email-submit" method="post">
+                <label>Email address:</label> <input type="email" name="email" attribute="email-add" placeholder="Enter email address">
+                <br><br>
+                <input id="submit" type="submit">
+            </form>
+            <h2 id="heading-2"><a name="#pri">Product pricing </a></h2>
+        </main>
+        <footer>
+
+        </footer>
+    </body>
+</html>
+{% endblock content%}
